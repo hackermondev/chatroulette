@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  background-color: #333;
+}
+#chat-button{
+  width: 190px;
+  padding: 10px 10px;
+  background-color: #50c878;
+  border: 5px solid black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#chat-button:hover{
+  border: 10px solid black;
+}
+#chat #message{
+  position: fixed;
+  bottom: 5px;
+  left:0;
+  width: 100%;
+  overflow: hidden;
+}
+#chat #messages *{
+  color: white;
+}
